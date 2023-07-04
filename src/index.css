@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,57 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+}
+
+.side-nav-div{
+  height: 90.5vh;
+  width: 14rem;
+  left: 0;
+}
+
+.side-bar-inner{
+  width: 90%;
+}
+
+.text,
+.textB{
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.textB{
+  font-weight: 500;
+}
+
+.side-content-div{
+}
+.side-content-divB{
+  color: black;
+  background-color: rgb(242,242,242);
+}
+
+.side-content-div:hover{
+  background-color: rgb(242,242,242);
+}
+
+.content-container{
+  right: 0;
+  width: 84%;
+  height: 90.5vh;
+}
+
+.video-btn{
+  width: 22rem;
+}
+
+.link{
+  text-decoration: none;
 }
